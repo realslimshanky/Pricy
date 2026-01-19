@@ -109,14 +109,14 @@ Notebook, model training and prediction api can be easily reproduced as explain 
 
 Model is deployed using FastAPI defined in [predict.py](./predict.py).
 
-## Dependency and enviroment management
+## Dependency and environment management
 
 Dependency and Virtual Environment is maintained by uv, via [pyproject.toml](./pyproject.toml) and [uv.lock](./uv.lock) as defined in [Local Setup](#local-setup).
 
 ## Containerization
 
-[Dockerfile](./Dockerfile) handles creating image and that can be used to run API container as defined in [Docker Setup](#docker-setup).
+[Dockerfile](./Dockerfile) handles creating image that can be used to run API container as defined in [Docker Setup](#docker-setup).
 
 ## Cloud deployment
 
-Skipped
+Public deployment can be accessed here - [https://pricy-production.up.railway.app/docs#/default/predict_price_predict_price_post](https://pricy-production.up.railway.app/docs#/default/predict_price_predict_price_post).
